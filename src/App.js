@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MovieList from "./components/MovieList";
 
 function App() {
-  return (
-    <h1>Hello world<br/>
-    welcome to react js
-    </h1>
-  );
+return (
+<MovieList/>
+);
 }
 
 export default App;
